@@ -5,10 +5,10 @@ Ref: https://www.hpc.mcgill.ca/downloads/user_meetings/McGillHPC-UsersMeeting-Py
 3. `[cq_server]> module add python/3.6.3`
 4. `[cq_server]> module load python/3.6.3`
 5. To create a virtualenv for python:
-    a. `[cq_server]> virtualenv env`
-    b. `[cq_server]> source env/bin/activate`
-    c. `[cq_server]> pip install numpy`
-    d. `[cq_server]> deactivate (to exit virtualenv)`
+	1. `[cq_server]> virtualenv env`
+	2. `[cq_server]> source env/bin/activate`
+	3. `[cq_server]> pip install numpy`
+	4. `[cq_server]> deactivate (to exit virtualenv)`
 
 Example job script:
 
