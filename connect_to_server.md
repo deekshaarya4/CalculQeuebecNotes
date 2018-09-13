@@ -13,7 +13,7 @@ Ref: https://wiki.calculquebec.ca/w/Connexion_%C3%A0_l%27aide_des_cl%C3%A9s_publ
             IdentityFile /Users/local_username/.ssh/calcul_quebec
   ```
 6. `[local]> ssh-add ~/.ssh/calcul_quebec` (Enter passphrase)
-7. `[local]> ssh cq_server_username@cq_server`
+7. `[local]> ssh cq_server_username@cq_server` OR simply `[local]> ssh cq_server_shortform`
 
 ### Copy data to server:
 `[local]> scp -r data cq_server_username@cq_server:`
