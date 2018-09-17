@@ -7,8 +7,8 @@ Ref: https://www.hpc.mcgill.ca/downloads/user_meetings/McGillHPC-UsersMeeting-Py
 5. To create a virtualenv for python:
 	1. `[cq_server]> virtualenv env`
 	2. `[cq_server]> source env/bin/activate`
-	3. `[cq_server]> pip install numpy`
-	4. `[cq_server]> deactivate (to exit virtualenv)`
+	3. `(env)_[cq_server]> pip install numpy`
+	4. `(env)_[cq_server]> deactivate (to exit virtualenv)`
 
 Example job script:
 
