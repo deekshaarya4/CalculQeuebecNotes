@@ -3,3 +3,6 @@
 
 Run job script:
 ` qsub test_job.sh `
+
+Check status of job script:
+` qstat -u <username> `
